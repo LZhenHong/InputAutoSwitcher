@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F23B8CAA2D8B2A530041ACDB /* Model in Frameworks */ = {isa = PBXBuildFile; productRef = F23B8CA92D8B2A530041ACDB /* Model */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F23B8C182D8A5F350041ACDB /* InputAutoSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputAutoSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23B8CB82D8B2B940041ACDB /* Model */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23B8CAA2D8B2A530041ACDB /* Model in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +38,7 @@
 		F23B8C0F2D8A5F350041ACDB = {
 			isa = PBXGroup;
 			children = (
+				F23B8CB82D8B2B940041ACDB /* Model */,
 				F23B8C1A2D8A5F350041ACDB /* InputAutoSwitcher */,
 				F23B8C192D8A5F350041ACDB /* Products */,
 			);
@@ -65,6 +72,7 @@
 			);
 			name = InputAutoSwitcher;
 			packageProductDependencies = (
+				F23B8CA92D8B2A530041ACDB /* Model */,
 			);
 			productName = InputAutoSwitcher;
 			productReference = F23B8C182D8A5F350041ACDB /* InputAutoSwitcher.app */;
@@ -94,6 +102,8 @@
 			);
 			mainGroup = F23B8C0F2D8A5F350041ACDB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F23B8C192D8A5F350041ACDB /* Products */;
 			projectDirPath = "";
@@ -315,6 +325,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F23B8CA92D8B2A530041ACDB /* Model */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Model;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F23B8C102D8A5F350041ACDB /* Project object */;
 }
