@@ -1,0 +1,23 @@
+.DS_Store
+
+# XcodeGen output
+*.xcodeproj
+
+# Xcode user data and build output
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager and local tooling
+.build/
+.swiftpm/
+buildServer.json
+
+# Local worktrees
+.worktrees/
