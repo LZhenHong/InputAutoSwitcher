@@ -7,7 +7,7 @@ options:
   minimumXcodeGenVersion: 2.42.0
   bundleIdPrefix: io.lzhlovesjyq
   deploymentTarget:
-    macOS: "15.0"
+    macOS: "26.0"
   createIntermediateGroups: true
   generateEmptyDirectories: false
 
